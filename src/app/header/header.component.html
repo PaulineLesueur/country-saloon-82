@@ -5,11 +5,11 @@
             <img class="logo" src="/assets/img/club-country-saloon-82-logo-beige.png" alt="Logo club Country Saloon 82">
         </a>
         <nav>
-            <div class="toggle-burger" (click)="toggleMenu()">
+            <div class="toggle-burger" [class.is-open]="isMenuOpen" (click)="toggleMenu()">
                 <span class="material-symbols-sharp">{{ isMenuOpen ? "close" : "menu" }}</span>
             </div>
             <div class="menu" [class.is-open]="isMenuOpen">
-                <ul>
+                <ul [class.is-open]="isMenuOpen">
                     <li><a href="#" routerLink="/" class="nav-link">Accueil</a></li>
                     <li><a href="#" routerLink="/b-a-ba" class="nav-link">B-A-BA de la country</a></li>
                     <li><a href="#" routerLink="/agenda" class="nav-link">Agenda</a></li>

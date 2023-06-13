@@ -128,3 +128,35 @@ header {
         }
     }
 }
+
+@media (max-width: 760px) {
+    header {
+        .nav-container nav ul {
+            width: 100%;
+        }
+
+        .title-container {
+            width: 365px;
+            left: 50%;
+            translate: -50%;
+            h1 {
+    
+                &::before {
+                    content: none;
+                }
+        
+                &::after {
+                    content: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        .nav-container {
+            padding: 20px;
+        }
+    }
+}
