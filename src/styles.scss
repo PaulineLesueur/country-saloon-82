@@ -11,3 +11,24 @@ body {
     font-size: 16px;
     color: var(--textColor);
 }
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--secondaryColor);
+
+    &.btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 47px;
+        padding: 0 30px 2px 30px;
+        background-color: var(--primaryColor);
+        border-radius: 6px;
+
+        &.secondary {
+            background-color: var(--secondaryColor);
+            color: var(--textColor);
+        }
+    }
+}
