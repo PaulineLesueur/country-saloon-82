@@ -26,9 +26,11 @@ a {
         padding: 0 30px 2px 30px;
         background-color: var(--primaryColor);
         border-radius: 6px;
+        font-weight: 500;
 
         &.secondary {
             background-color: var(--secondaryColor);
+            font-weight: 600;
             color: var(--textColor);
         }
     }
