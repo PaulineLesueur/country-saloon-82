@@ -1,0 +1,30 @@
+.home-page-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 50px;
+
+    .mot-president {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 917px;
+        margin: auto;
+
+        img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+        }
+
+        p {
+            width: 80%;
+        }
+
+        em {
+            display: block;
+            text-align: right;
+            color: var(--primaryColor);
+        }
+    }
+}
