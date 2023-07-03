@@ -11,6 +11,10 @@
 
     img.logo {
         height: 175px;
+
+        &.noir {
+            display: none;
+        }
     }
 
     nav ul {
@@ -45,6 +49,46 @@
 
         a.btn {
             box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+        }
+    }
+}
+
+.sticky-nav {
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 8px 0;
+    background: white;
+
+    .nav-container {
+        top: 0;
+
+        .logo {
+            height: 100px;
+
+            &.noir {
+                display: block;
+            }
+
+            &.beige {
+                display: none;
+            }
+        }
+
+        nav ul {
+            a.nav-link {
+                color: var(--primaryColor);
+                text-shadow: none;
+    
+                &::after {
+                    background: var(--primaryColor);
+                }
+            }
+
+            a.btn {
+                box-shadow: none;
+            }
         }
     }
 }
