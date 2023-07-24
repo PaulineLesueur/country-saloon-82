@@ -54,7 +54,7 @@
         background-position-y: -58px;
 
         h3 {
-            padding: 15px 0 0 295px;
+            padding: 15px 0 56px 295px;
             font-size: 20px;
             color: var(--primaryColor);
         }
@@ -63,34 +63,76 @@
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
+            width: 80%;
             max-width: 932px;
-            margin: 56px auto auto auto;
+            margin: auto;
         }
     }
 }
 
-@media (max-width: 820px) {
-    .home-page-container .mot-president {
-        flex-direction: column-reverse;
-        align-items: center;
+@media (max-width: 1230px) {
+    .home-page-container .en-bref {
+        background: none;
 
-        img {
-            margin-bottom: 50px;
+        h3 {
+            padding: 0 0 20px 220px;
+        }
+    }
+}
+
+@media (max-width: 1074px) {
+    .home-page-container .en-bref .activities-container {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 820px) {
+    .home-page-container {
+        .mot-president {
+            flex-direction: column-reverse;
+            align-items: center;
+    
+            img {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 740px) {
+    .home-page-container .en-bref .activities-container {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 714px) {
+    .home-page-container {
+        .en-bref {
+            h3 {
+                padding: 0 0 20px 0;
+                text-align: center;
+            }
+    
+            .activities-container {
+                justify-content: center;
+            }
         }
     }
 }
 
 @media (max-width: 360px) {
-    .home-page-container .mot-president {
-        text-align: center;
-
-        p::after {
-            display: none;
-        }
-
-        em {
-            margin-top: 20px;
+    .home-page-container {
+        .mot-president {
             text-align: center;
+    
+            p::after {
+                display: none;
+            }
+    
+            em {
+                margin-top: 20px;
+                text-align: center;
+            }
         }
     }
 }
