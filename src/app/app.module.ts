@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { ActivitiesCardComponent } from './activities-card/activities-card.component';
+import { ImageSliderComponent } from './image-slider/image-slider.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ActivitiesCardComponent } from './activities-card/activities-card.compo
     NavComponent,
     FooterComponent,
     HomeComponent,
-    ActivitiesCardComponent
+    ActivitiesCardComponent,
+    ImageSliderComponent
   ],
   imports: [
     BrowserModule,
