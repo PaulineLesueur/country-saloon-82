@@ -7,6 +7,6 @@
     </div>
     <div class="en-bref">
         <h3>Country Saloon 82 en bref</h3>
-        <app-activities></app-activities>
+        <app-activities-card *ngFor="let activity of activitiesCard" [activitiesCard]="activity"></app-activities-card>
     </div>
 </div>
