@@ -31,6 +31,7 @@
 
     .en-bref {
         width: 100%;
+        max-width: 1280px;
         height: 400px;
         margin: auto;
         background: url('/assets/img/hat-and-boots-illustration.png') no-repeat top left;
@@ -40,6 +41,13 @@
             padding: 15px 0 0 295px;
             font-size: 20px;
             color: var(--primaryColor);
+        }
+
+        .activities-container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 932px;
+            margin: 56px auto auto auto;
         }
     }
 }

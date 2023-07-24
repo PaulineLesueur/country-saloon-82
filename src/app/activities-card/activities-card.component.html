@@ -1,6 +1,10 @@
 <div class="activity-card">
-    <img [src]="activitiesCard.imageUrl" [alt]="activitiesCard.title">
-    <h4>{{ activitiesCard.title }}</h4>
-    <p>{{ activitiesCard.description }}</p>
+    <div class="container-img">
+        <img [src]="activitiesCard.imageUrl" [alt]="activitiesCard.title">
+    </div>
+    <div class="infos">
+        <h4>{{ activitiesCard.title }}</h4>
+        <p>{{ activitiesCard.description }}</p>
+    </div>
     <a [routerLink]="activitiesCard.pageUrl" class="btn">Je veux en savoir plus</a>
 </div>

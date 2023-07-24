@@ -1,0 +1,40 @@
+.activity-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 287px;
+    height: 327px;
+    padding: 15px;
+    background-color: var(--backgroundColor);
+    border-radius: 10px;
+
+    .container-img {
+        width: 100%;
+        height: 122px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 6px;
+            transition: .5s;
+        }
+    }
+
+    .container-img:hover img {
+        transform: scale(1.3);
+    }
+
+    .infos {
+        flex-grow: 1;
+
+        h4 {
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
