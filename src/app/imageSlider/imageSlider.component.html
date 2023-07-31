@@ -1,7 +1,7 @@
 <div class="slider">
     <div>
-        <span class="material-symbols-sharp left-arrow">arrow_back_ios</span>
-        <span class="material-symbols-sharp right-arrows"> arrow_forward_ios </span>
+        <span class="material-symbols-sharp left-arrow" (click)="goToPrevious()">arrow_back_ios</span>
+        <span class="material-symbols-sharp right-arrow" (click)="goToNext()"> arrow_forward_ios </span>
     </div>
     <div class="slide" [ngStyle]="{ 'background-image': getCurrentSlideUrl() }"></div>
 </div>
