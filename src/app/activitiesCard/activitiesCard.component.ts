@@ -3,8 +3,8 @@ import { ActivitiesCard } from '../models/activities-card.model';
 
 @Component({
   selector: 'app-activities-card',
-  templateUrl: './activities-card.component.html',
-  styleUrls: ['./activities-card.component.scss']
+  templateUrl: './activitiesCard.component.html',
+  styleUrls: ['./activitiesCard.component.scss']
 })
 export class ActivitiesCardComponent implements OnInit {
   @Input() activitiesCard!: ActivitiesCard;

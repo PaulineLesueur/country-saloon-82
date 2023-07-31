@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivitiesCard } from '../models/activities-card.model';
+import { SlideInterface } from '../types/slide.interface';
 
 @Component({
   selector: 'app-home',
@@ -31,4 +32,9 @@ export class HomeComponent implements OnInit {
       }
     ];
   }
+
+  slides: SlideInterface[] = [
+    { url: '../assets/img/home-slider/IMG_7810.JPG', title: 'adhérents country saloon 82'},
+    { url: '../assets/img/home-slider/IMG-20230316-WA0030.jpg', title: 'téléthon 2023'}
+  ]
 }
