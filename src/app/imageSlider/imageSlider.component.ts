@@ -24,6 +24,11 @@ export class ImageSliderComponent {
   }
 
   getCurrentSlideUrl(): string {
-    return `url('${this.slides[this.currentIndex].url}')`
+    return `${this.slides[this.currentIndex].url}`
+  }
+
+  isSliderFullscreen = false;
+  fullScreenImage(): void {
+    this.isSliderFullscreen = !this.isSliderFullscreen;
   }
 }

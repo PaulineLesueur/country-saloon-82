@@ -1,7 +1,10 @@
 <div class="slider">
     <div>
-        <span class="material-symbols-sharp left-arrow" (click)="goToPrevious()">arrow_back_ios</span>
-        <span class="material-symbols-sharp right-arrow" (click)="goToNext()"> arrow_forward_ios </span>
+        <span [class.arrow-fullscreen]="isSliderFullscreen" class="material-symbols-sharp left-arrow" (click)="goToPrevious()"> arrow_back_ios </span>
+        <span [class.arrow-fullscreen]="isSliderFullscreen" class="material-symbols-sharp right-arrow" (click)="goToNext()"> arrow_forward_ios </span>
     </div>
-    <div class="slide" [ngStyle]="{ 'background-image': getCurrentSlideUrl() }"></div>
+    <div [class.background-fullscreen]="isSliderFullscreen">
+        <span [class.close-fullscreen]="isSliderFullscreen" class="material-symbols-sharp close" (click)="fullScreenImage()"> close </span>
+        <img class="slide" [class.slider-fullscreen]="isSliderFullscreen" (click)="fullScreenImage()" [src]="getCurrentSlideUrl()" />
+    </div>
 </div>
