@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, HostListener, Input } from '@angular/core';
 import { SlideInterface } from '../types/slide.interface';
 
 @Component({
@@ -25,6 +25,16 @@ export class ImageSliderComponent {
 
   getCurrentSlideUrl(): string {
     return `${this.slides[this.currentIndex].url}`
+  }
+
+  @HostListener('window:keydown.ArrowLeft', ['$event'])
+  handleLeftArrow(event: KeyboardEvent) {
+    this.goToPrevious();
+  }
+
+  @HostListener('window:keydown.ArrowRight', ['$event'])
+  handleRightArrow(event: KeyboardEvent) {
+    this.goToNext();
   }
 
   isSliderFullscreen = false;
