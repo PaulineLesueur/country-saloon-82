@@ -1,7 +1,31 @@
 <header>
     <div class="header-container">
         <div class="overlay"></div>
-        <app-nav></app-nav>
+        <div [ngClass]="{'sticky-nav': isSticky}">
+            <div class="nav-container">
+                <a href="#" routerLink="/">
+                    <img class="logo beige" src="/assets/img/logo/club-country-saloon-82-logo-beige.png" alt="Logo club Country Saloon 82">
+                    <img class="logo noir" src="/assets/img/logo/club-country-saloon-82-logo-noir.png" alt="Logo club Country Saloon 82">
+                </a>
+                <nav>
+                    <div class="toggle-burger" [class.is-open]="isMenuOpen" (click)="toggleMenu()">
+                        <span class="material-symbols-sharp">{{ isMenuOpen ? "close" : "menu" }}</span>
+                    </div>
+                    <div class="menu" [class.is-open]="isMenuOpen">
+                        <ul [class.is-open]="isMenuOpen">
+                            <li><a href="#" routerLink="/" class="nav-link">Accueil</a></li>
+                            <li><a href="#" routerLink="/b-a-ba" class="nav-link">B-A-BA de la country</a></li>
+                            <li><a href="#" routerLink="/agenda" class="nav-link">Agenda</a></li>
+                            <li><a href="#" routerLink="/club" class="nav-link">Le club</a></li>
+                            <li><a href="#" routerLink="/livre-or" class="nav-link">Livre d'or</a></li>
+                            <li><a href="#" routerLink="/galerie" class="nav-link">Galerie</a></li>
+                            <li><a href="#" routerLink="/contact" [class.nav-link]="isMenuOpen" class="btn secondary">Contact</a></li>
+                            <li><a href="#" routerLink="/connexion" [class.nav-link]="isMenuOpen" class="btn">Connexion</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
         <div class="title-container">
             <h1>
                 Country Saloon 82
