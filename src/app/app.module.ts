@@ -9,6 +9,7 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { ActivitiesCardComponent } from './activitiesCard/activitiesCard.component';
 import { ImageSliderComponent } from './imageSlider/imageSlider.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ImageSliderComponent } from './imageSlider/imageSlider.component';
     FooterComponent,
     HomeComponent,
     ActivitiesCardComponent,
-    ImageSliderComponent
+    ImageSliderComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
