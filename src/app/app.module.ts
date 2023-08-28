@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { ActivitiesCardComponent } from './activitiesCard/activitiesCard.component';
 import { ImageSliderComponent } from './imageSlider/imageSlider.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { IncomingFeatureComponent } from './incoming-feature/incoming-feature.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     NavComponent,
     ActivitiesCardComponent,
     ImageSliderComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    IncomingFeatureComponent
   ],
   imports: [
     BrowserModule,
