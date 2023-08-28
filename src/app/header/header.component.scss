@@ -16,6 +16,102 @@ header .header-container {
         opacity: .5;
     }
 
+    .nav-container {
+        z-index: 999;
+        position: relative;
+        top: 26px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        max-width: 1400px;
+        margin: auto;
+    
+        img.logo {
+            height: 175px;
+    
+            &.noir {
+                display: none;
+            }
+        }
+    
+        nav ul {
+            display: flex;
+            align-items: center;
+    
+            li {
+                list-style-type: none;
+                margin: 0 15px;
+            }
+    
+            a.nav-link {
+                position: relative;
+                text-shadow: 0px 2px 4px rgba(0, 0, 0);
+    
+                &::after {
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    width: 100%;
+                    height: 2px;
+                    margin-top:2px;
+                    background: var(--secondaryColor);
+                    transform: scale(0);
+                    transition: transform .2s ease-in-out;
+                }
+        
+                &:hover::after {
+                    transform: scale(1);
+                }
+            }
+    
+            a.btn {
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+            }
+        }
+    }
+
+    .sticky-nav {
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        padding: 8px 0;
+        background: white;
+    
+        .nav-container {
+            top: 0;
+    
+            .logo {
+                height: 100px;
+    
+                &.noir {
+                    display: block;
+                }
+    
+                &.beige {
+                    display: none;
+                }
+            }
+    
+            nav ul {
+                a.nav-link {
+                    color: var(--primaryColor);
+                    text-shadow: none;
+        
+                    &::after {
+                        background: var(--primaryColor);
+                    }
+                }
+    
+                a.btn {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+
+
     .title-container {
         position: absolute;
         top: 47%;
