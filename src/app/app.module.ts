@@ -12,6 +12,7 @@ import { ImageSliderComponent } from './imageSlider/imageSlider.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { IncomingFeatureComponent } from './incoming-feature/incoming-feature.component';
 import { ContactComponent } from './contact/contact.component';
+import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactComponent } from './contact/contact.component';
     ImageSliderComponent,
     PageNotFoundComponent,
     IncomingFeatureComponent,
-    ContactComponent
+    ContactComponent,
+    MentionsLegalesComponent
   ],
   imports: [
     BrowserModule,
