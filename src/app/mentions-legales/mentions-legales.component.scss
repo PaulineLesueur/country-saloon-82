@@ -1,0 +1,30 @@
+.container-mentions-legales {
+    max-width: 917px;
+    margin: auto;
+    margin-bottom: 80px;
+
+    h2 {
+        margin-bottom: 20px;
+        font-family: var(--primaryFont);
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--primaryColor);
+
+        &::before {
+            content: '( ';
+        }
+
+        &::after {
+            content: ' )';
+        }
+    }
+
+    a {
+        color: var(--textColor);
+    }
+
+    strong {
+        color: var(--primaryColor);
+    }
+}
