@@ -11,6 +11,7 @@ import { ActivitiesCardComponent } from './activitiesCard/activitiesCard.compone
 import { ImageSliderComponent } from './imageSlider/imageSlider.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { IncomingFeatureComponent } from './incoming-feature/incoming-feature.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { IncomingFeatureComponent } from './incoming-feature/incoming-feature.co
     ActivitiesCardComponent,
     ImageSliderComponent,
     PageNotFoundComponent,
-    IncomingFeatureComponent
+    IncomingFeatureComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
