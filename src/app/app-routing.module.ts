@@ -7,14 +7,12 @@ import { ContactComponent } from './contact/contact.component';
 import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.component';
 import { CoursComponent } from './cours/cours.component';
 import { ClubComponent } from './club/club.component';
-import { BabaComponent } from './baba/baba.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'cours', component: CoursComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'club', component: ClubComponent },
-  { path: 'b-a-ba', component: BabaComponent },
   { path: 'mentions-legales', component: MentionsLegalesComponent },
   { path: 'coming-soon', component: IncomingFeatureComponent },
   { path: '**', component: PageNotFoundComponent }

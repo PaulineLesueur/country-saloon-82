@@ -17,7 +17,6 @@ import { ContactComponent } from './contact/contact.component';
 import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.component';
 import { CoursComponent } from './cours/cours.component';
 import { ClubComponent } from './club/club.component';
-import { BabaComponent } from './baba/baba.component';
 
 @NgModule({
   declarations: [
@@ -33,8 +32,7 @@ import { BabaComponent } from './baba/baba.component';
     ContactComponent,
     MentionsLegalesComponent,
     CoursComponent,
-    ClubComponent,
-    BabaComponent,
+    ClubComponent
   ],
   imports: [
     BrowserModule,
