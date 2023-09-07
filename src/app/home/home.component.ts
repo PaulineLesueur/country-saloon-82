@@ -34,7 +34,22 @@ export class HomeComponent implements OnInit {
   }
 
   slides: SlideInterface[] = [
-    { url: '../assets/img/home-slider/IMG_7810.JPG', title: 'adhérents country saloon 82'},
-    { url: '../assets/img/home-slider/IMG-20230316-WA0030.jpg', title: 'téléthon 2023'}
+    { url: '../assets/img/home-slider/IMG_7810.JPG', title: 'adhérents country saloon 82' },
+    { url: '../assets/img/home-slider/IMG-20230316-WA0030.jpg', title: 'téléthon 2023' },
+    { url: '../assets/img/home-slider/image0000001(1).jpg', title: 'country saloon 82' },
+    { url: '../assets/img/home-slider/IMG-20221203-WA0009.jpg', title: 'club country saloon 82' },
+    { url: '../assets/img/home-slider/IMG-20221204-WA0005.jpg', title: 'téléthon 2023' },
+    { url: '../assets/img/home-slider/IMG-20221204-WA0023.jpg', title: 'téléthon 2023' },
+    { url: '../assets/img/home-slider/IMG-20230319-WA0019.jpg', title: 'country saloon 82' },
+    { url: '../assets/img/home-slider/IMG-20230320-WA0011.jpg', title: 'danse country' },
+    { url: '../assets/img/home-slider/IMG-20230602-WA0019.jpg', title: 'danse country' },
+    { url: '../assets/img/home-slider/IMG-20230602-WA0021.jpg', title: 'club danse country' },
+    { url: '../assets/img/home-slider/IMG-20230621-WA0007.jpg', title: 'soirée danse country' },
+    { url: '../assets/img/home-slider/IMG-20230621-WA0017.jpg', title: 'danse country' },
+    { url: '../assets/img/home-slider/IMG-20230623-WA0003.jpg', title: 'country saloon 82' },
+    { url: '../assets/img/home-slider/IMG-20230623-WA0011.jpg', title: 'country saloon 82' },
+    { url: '../assets/img/home-slider/IMG-20230723-WA0008.jpg', title: 'danse country' },
+    { url: '../assets/img/home-slider/IMG-20230723-WA0011.jpg', title: 'événement danse country' },
+    { url: '../assets/img/home-slider/IMG-20230723-WA0013.jpg', title: 'club country saloon 82' },
   ]
 }
