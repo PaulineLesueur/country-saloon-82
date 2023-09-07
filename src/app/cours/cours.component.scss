@@ -1,5 +1,6 @@
 .container-cours {
-    max-width: 1300px;
+    width: 80%;
+    max-width: 1000px;
     margin: auto;
 
     .head {
@@ -32,24 +33,44 @@
 
     .body {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         margin: 50px 0 80px 0;
 
-        img {
-            width: 50%;
-        }
-
         .infos-cours {
-            width: 48%;
+            display: flex;
+            justify-content: space-between;
+
+            .salle-zawislack, .salle-fetes {
+                width: 49%;
+            }
+
+            .salle-fetes {
+                text-align: right;
+            }
+
+            img.map {
+                width: 100%;
+            }
 
             p {
                 margin-bottom: 10px;
-                
+
                 strong {
                     display: block;
                     text-decoration: underline;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 820px) {
+    .container-cours .body .infos-cours {
+        flex-direction: column;
+
+        .salle-zawislack, .salle-fetes {
+            width: 100%;
         }
     }
 }
