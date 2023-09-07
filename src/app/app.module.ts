@@ -15,6 +15,7 @@ import { IncomingFeatureComponent } from './incoming-feature/incoming-feature.co
 import { ContactComponent } from './contact/contact.component';
 import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.component';
 import { CoursComponent } from './cours/cours.component';
+import { ClubComponent } from './club/club.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { CoursComponent } from './cours/cours.component';
     IncomingFeatureComponent,
     ContactComponent,
     MentionsLegalesComponent,
-    CoursComponent
+    CoursComponent,
+    ClubComponent
   ],
   imports: [
     BrowserModule,
