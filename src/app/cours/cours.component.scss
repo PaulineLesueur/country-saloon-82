@@ -1,0 +1,32 @@
+.container-cours {
+    max-width: 917px;
+    margin: auto;
+
+    .head {
+        text-align: center;
+
+        h2 {
+            font-family: var(--primaryFont);
+            font-size: 64px;
+            font-weight: 400;
+            color: var(--primaryColor);
+
+                &::before {
+                    content: '( ';
+                }
+
+                &::after {
+                    content: ' )';
+                }
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        a {
+            width: 290px;
+            margin: 10px auto auto auto;
+        }
+    }
+}
