@@ -1,5 +1,5 @@
 .container-cours {
-    max-width: 917px;
+    max-width: 1300px;
     margin: auto;
 
     .head {
@@ -27,6 +27,29 @@
         a {
             width: 290px;
             margin: 10px auto auto auto;
+        }
+    }
+
+    .body {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 0 80px 0;
+
+        img {
+            width: 50%;
+        }
+
+        .infos-cours {
+            width: 48%;
+
+            p {
+                margin-bottom: 10px;
+                
+                strong {
+                    display: block;
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }
