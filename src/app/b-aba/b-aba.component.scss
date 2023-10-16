@@ -27,4 +27,23 @@
             margin: 10px auto auto auto;
         }
     }
+
+    section {
+        margin-bottom: 50px;
+
+        .tab-content {
+            padding: 30px;
+            background-color: var(--backgroundColor);
+            border-radius: 10px;
+
+            img {
+                float: left;
+                margin-right: 10px;
+            }
+
+            strong.doc {
+                float: right;
+            }
+        }
+    }
 }
