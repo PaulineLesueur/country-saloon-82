@@ -14,11 +14,9 @@
 
 ::ng-deep {
     .mat-mdc-tab .mdc-tab__text-label {
-        color: darkgray !important;
+        color: var(--textColor) !important;
     }
 }
-
-
 
 .container-baba {
     width: 80%;
@@ -52,6 +50,11 @@
 
     section {
         margin-bottom: 50px;
+        margin-left: -100px;
+        padding-top: 15px;
+        padding-left: 255px;
+        background: url('/assets/img/hat-and-boots-illustration.png') no-repeat top left;
+        background-position-y: -55px;
 
         .tab-content {
             padding: 30px;
@@ -98,6 +101,15 @@
                 width: 30%;
             }
         }
+    }
+}
+
+@media (max-width: 1180px) {
+    .container-baba section {
+        margin-left: 0;
+        padding-top: 0;
+        padding-left: 0;
+        background: none;
     }
 }
 
