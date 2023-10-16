@@ -1,0 +1,30 @@
+.container-baba {
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+
+    .head {
+        margin-bottom: 50px;
+
+        h2 {
+            font-family: var(--primaryFont);
+            font-size: 64px;
+            font-weight: 400;
+            text-align: center;
+            color: var(--primaryColor);
+    
+                &::before {
+                    content: '( ';
+                }
+    
+                &::after {
+                    content: ' )';
+                }
+        }
+    
+        a {
+            width: 290px;
+            margin: 10px auto auto auto;
+        }
+    }
+}
