@@ -41,8 +41,33 @@
                 margin-right: 10px;
             }
 
+            img.decoupage {
+                float: none;
+                display: block;
+                margin: auto;
+            }
+
             strong.doc {
                 float: right;
+            }
+
+            h3 {
+                font-size: 17px;
+                text-decoration: underline;
+            }
+
+            p.pied {
+                display: flex;
+                justify-content: space-evenly;
+                padding: 20px 0;
+                border-top: 1px solid lightgrey;
+                border-bottom: 1px solid lightgrey;
+            }
+
+            .pas {
+                display: grid;
+                grid-template-columns: 200px auto;
+                row-gap: 20px;
             }
         }
     }
