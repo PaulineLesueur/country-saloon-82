@@ -1,0 +1,131 @@
+::ng-deep .mat-mdc-tab.mdc-tab--active .mdc-tab__text-label {
+    font-weight: bold !important;
+    font-size: 20px;
+    color: var(--primaryColor) !important;
+}
+
+::ng-deep .mat-mdc-tab .mdc-tab-indicator__content--underline {
+    border-color: var(--primaryColor) !important;
+}
+
+::ng-deep .mat-mdc-tab.mdc-tab--active .mdc-tab__ripple::before, .mat-mdc-tab.mdc-tab--active .mat-ripple-element {
+    background-color: transparent !important;
+}
+
+::ng-deep {
+    .mat-mdc-tab .mdc-tab__text-label {
+        color: var(--textColor) !important;
+    }
+}
+
+.container-baba {
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+
+    .head {
+        margin-bottom: 50px;
+
+        h2 {
+            font-family: var(--primaryFont);
+            font-size: 64px;
+            font-weight: 400;
+            text-align: center;
+            color: var(--primaryColor);
+    
+                &::before {
+                    content: '( ';
+                }
+    
+                &::after {
+                    content: ' )';
+                }
+        }
+    
+        a {
+            width: 290px;
+            margin: 10px auto auto auto;
+        }
+    }
+
+    section {
+        margin-bottom: 50px;
+        margin-left: -100px;
+        padding-top: 15px;
+        padding-left: 255px;
+        background: url('/assets/img/hat-and-boots-illustration.png') no-repeat top left;
+        background-position-y: -55px;
+
+        .tab-content {
+            padding: 30px;
+            background-color: var(--backgroundColor);
+            border-radius: 10px;
+
+            img {
+                float: left;
+                max-width: 100%;
+                margin-right: 20px;
+            }
+
+            img.decoupage {
+                float: none;
+                display: block;
+                margin: auto;
+            }
+
+            strong.doc {
+                float: right;
+            }
+
+            h3 {
+                font-size: 17px;
+                text-decoration: underline;
+            }
+
+            p.pied {
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                padding: 20px 0;
+                border-top: 1px solid lightgrey;
+                border-bottom: 1px solid lightgrey;
+            }
+
+            .pas {
+                display: grid;
+                grid-template-columns: 200px auto;
+                row-gap: 20px;
+            }
+
+            img.pratiquer {
+                width: 30%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1180px) {
+    .container-baba section {
+        margin-left: 0;
+        padding-top: 0;
+        padding-left: 0;
+        background: none;
+    }
+}
+
+@media (max-width: 820px) {
+    .container-baba section .tab-content {
+        img {
+                float: none;
+                display: block;
+                margin: auto;
+        }
+    }
+}
+
+@media (max-width: 740px) {
+    .container-baba section .tab-content .pas {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule } from '@angular/material/tabs';
-
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.component';
 import { CoursComponent } from './cours/cours.component';
 import { ClubComponent } from './club/club.component';
+import { BABaComponent } from './b-aba/b-aba.component';
 
 @NgModule({
   declarations: [
@@ -32,11 +33,13 @@ import { ClubComponent } from './club/club.component';
     ContactComponent,
     MentionsLegalesComponent,
     CoursComponent,
-    ClubComponent
+    ClubComponent,
+    BABaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NoopAnimationsModule,
     MatTabsModule
   ],
   providers: [],
