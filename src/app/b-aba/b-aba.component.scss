@@ -1,3 +1,25 @@
+::ng-deep .mat-mdc-tab.mdc-tab--active .mdc-tab__text-label {
+    font-weight: bold !important;
+    font-size: 20px;
+    color: var(--primaryColor) !important;
+}
+
+::ng-deep .mat-mdc-tab .mdc-tab-indicator__content--underline {
+    border-color: var(--primaryColor) !important;
+}
+
+::ng-deep .mat-mdc-tab.mdc-tab--active .mdc-tab__ripple::before, .mat-mdc-tab.mdc-tab--active .mat-ripple-element {
+    background-color: transparent !important;
+}
+
+::ng-deep {
+    .mat-mdc-tab .mdc-tab__text-label {
+        color: darkgray !important;
+    }
+}
+
+
+
 .container-baba {
     width: 80%;
     max-width: 1280px;
