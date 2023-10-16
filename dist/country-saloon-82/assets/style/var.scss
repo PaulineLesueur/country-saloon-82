@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0');
+
+@font-face {
+    font-family: 'RioGrande';
+    src: url('/assets/font/RioGrande.ttf');
+}
+
+:root {
+    --primaryFont: 'RioGrande';
+    --mainFont: 'Lato', sans-serif;
+
+    --primaryColor: #594963;
+    --secondaryColor: #E2E2E2;
+    --backgroundColor: #f7f7f7;
+    --accentColor: #f0d4a2;
+    --footerColor: #252525;
+    --textColor: #252525;
+
+    --headerIllustration: url('/assets/img/country-cowboy-boots-illustration.jpg');
+}
