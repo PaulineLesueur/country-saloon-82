@@ -26,6 +26,14 @@
             width: 290px;
             margin: 10px auto auto auto;
         }
+
+        img {
+            width: 100%;
+            height: 300px;
+            margin-top: 30px;
+            object-fit: cover;
+            border-radius: 25px;
+        }
     }
 
     .mat-accordion .mat-expansion-panel:first-of-type, .mat-accordion .mat-expansion-panel:not(.mat-expanded), .mat-accordion .mat-expansion-panel:not(.mat-expansion-panel-spacing) {
