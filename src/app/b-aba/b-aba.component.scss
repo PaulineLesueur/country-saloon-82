@@ -73,6 +73,13 @@
                 margin: auto;
             }
 
+            img.pot {
+                float: none;
+                display: block;
+                width: 70%;
+                margin: auto;
+            }
+
             strong.doc {
                 float: right;
             }
@@ -119,6 +126,10 @@
                 float: none;
                 display: block;
                 margin: auto;
+
+                &.pot {
+                    width:100%;
+                }
         }
     }
 }
