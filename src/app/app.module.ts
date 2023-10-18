@@ -18,6 +18,7 @@ import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.co
 import { CoursComponent } from './cours/cours.component';
 import { ClubComponent } from './club/club.component';
 import { BABaComponent } from './b-aba/b-aba.component';
+import { AgendaComponent } from './agenda/agenda.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { BABaComponent } from './b-aba/b-aba.component';
     MentionsLegalesComponent,
     CoursComponent,
     ClubComponent,
-    BABaComponent
+    BABaComponent,
+    AgendaComponent
   ],
   imports: [
     BrowserModule,

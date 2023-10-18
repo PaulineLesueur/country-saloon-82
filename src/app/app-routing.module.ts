@@ -8,10 +8,12 @@ import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.co
 import { CoursComponent } from './cours/cours.component';
 import { ClubComponent } from './club/club.component';
 import { BABaComponent } from './b-aba/b-aba.component';
+import { AgendaComponent } from './agenda/agenda.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'b-a-ba', component: BABaComponent },
+  { path: 'agenda', component: AgendaComponent },
   { path: 'cours', component: CoursComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'club', component: ClubComponent },
