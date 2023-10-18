@@ -21,6 +21,7 @@ import { CoursComponent } from './cours/cours.component';
 import { ClubComponent } from './club/club.component';
 import { BABaComponent } from './b-aba/b-aba.component';
 import { AgendaComponent } from './agenda/agenda.component';
+import { EvenementsClubComponent } from './evenements-club/evenements-club.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { AgendaComponent } from './agenda/agenda.component';
     CoursComponent,
     ClubComponent,
     BABaComponent,
-    AgendaComponent
+    AgendaComponent,
+    EvenementsClubComponent
   ],
   imports: [
     BrowserModule,

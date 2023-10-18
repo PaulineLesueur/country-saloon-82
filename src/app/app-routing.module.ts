@@ -9,14 +9,16 @@ import { CoursComponent } from './cours/cours.component';
 import { ClubComponent } from './club/club.component';
 import { BABaComponent } from './b-aba/b-aba.component';
 import { AgendaComponent } from './agenda/agenda.component';
+import { EvenementsClubComponent } from './evenements-club/evenements-club.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'b-a-ba', component: BABaComponent },
   { path: 'agenda', component: AgendaComponent },
-  { path: 'cours', component: CoursComponent },
-  { path: 'contact', component: ContactComponent },
   { path: 'club', component: ClubComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'evenements', component: EvenementsClubComponent },
+  { path: 'cours', component: CoursComponent },
   { path: 'mentions-legales', component: MentionsLegalesComponent },
   { path: 'coming-soon', component: IncomingFeatureComponent },
   { path: '**', component: PageNotFoundComponent }
