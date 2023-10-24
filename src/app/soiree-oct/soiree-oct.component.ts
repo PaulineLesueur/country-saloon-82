@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SlideInterface } from '../types/slide.interface';
 
 @Component({
   selector: 'app-soiree-oct',

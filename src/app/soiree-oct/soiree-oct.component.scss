@@ -25,5 +25,32 @@
         h3 {
             text-align: center;
         }
+
+        a {
+            width: 290px;
+            margin: 10px auto auto auto;
+        }
+    }
+
+    .event-content {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        img {
+            width: 33%;
+        }
+    }
+}
+
+@media (max-width: 1180px) {
+    .event-container .event-content img {
+            width: 50%;
+    }
+}
+
+@media (max-width: 8200px) {
+    .event-container .event-content img {
+            width: 100%;
     }
 }
