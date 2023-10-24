@@ -73,3 +73,9 @@
         }
     }
 }
+
+@media (max-width: 360px) {
+    .container-agenda .agenda-content {
+        grid-template-columns: 100%;
+    }
+}
