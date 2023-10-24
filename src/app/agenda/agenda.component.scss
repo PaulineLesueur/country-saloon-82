@@ -41,12 +41,12 @@
         box-shadow: none;
         margin-bottom: 20px;
     }
-
+    
     .mat-expansion-panel:not([class*=mat-elevation-z]) {
         border-radius: 10px;
         box-shadow: none;
     }
-
+    
     .mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-header:not([aria-disabled=true]) {
         height: 65px;
         background: var(--secondaryColor);
@@ -54,20 +54,20 @@
         font-weight: bold;
         color: #808080;
     }
-
+    
     .mat-expansion-panel-header.mat-expanded:focus, .mat-expansion-panel-header.mat-expanded {
         background: var(--primaryColor);
         font-size: 26px;
         font-weight: bold;
         color: var(--backgroundColor);
     }
-
+    
     .agenda-content {
         display: grid;
         grid-template-columns: 150px auto;
         row-gap: 20px;
         margin-top: 10px;
-
+    
         a {
             color: var(--textColor);
         }

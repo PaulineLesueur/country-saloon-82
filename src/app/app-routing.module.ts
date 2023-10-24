@@ -9,14 +9,18 @@ import { CoursComponent } from './cours/cours.component';
 import { ClubComponent } from './club/club.component';
 import { BABaComponent } from './b-aba/b-aba.component';
 import { AgendaComponent } from './agenda/agenda.component';
+import { EvenementsClubComponent } from './evenements-club/evenements-club.component';
+import { SoireeOctComponent } from './soiree-oct/soiree-oct.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'b-a-ba', component: BABaComponent },
   { path: 'agenda', component: AgendaComponent },
-  { path: 'cours', component: CoursComponent },
-  { path: 'contact', component: ContactComponent },
   { path: 'club', component: ClubComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'evenements', component: EvenementsClubComponent },
+  { path: '28-29-octobre-2023-st-etienne-de-tulmont', component: SoireeOctComponent },
+  { path: 'cours', component: CoursComponent },
   { path: 'mentions-legales', component: MentionsLegalesComponent },
   { path: 'coming-soon', component: IncomingFeatureComponent },
   { path: '**', component: PageNotFoundComponent }

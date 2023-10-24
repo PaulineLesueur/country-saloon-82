@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
         title: 'Les événements du club',
         description: 'Notre club organise régulièrement des événements publics où se retrouver entre passionnés de country',
         imageUrl: '/assets/img/activities-img/event-img.jpg',
-        pageUrl: '/coming-soon'
+        pageUrl: '/evenements'
       },
       {
         title: 'Les cours',

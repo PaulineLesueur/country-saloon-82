@@ -1,0 +1,17 @@
+<app-nav></app-nav>
+<section class="container-events">
+    <div class="head">
+        <h2>Evenements du club</h2>
+        <div class="illu"></div>
+    </div>
+    <mat-accordion [multi]="true">
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                Octobre 2023
+            </mat-expansion-panel-header>
+            <div class="event-content">
+                <app-activities-card *ngFor="let activity of activitiesCard" [activitiesCard]="activity"></app-activities-card>
+            </div>
+        </mat-expansion-panel>
+    </mat-accordion>
+</section>
