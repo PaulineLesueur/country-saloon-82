@@ -36,6 +36,12 @@
         max-width: 917px;
         position: relative;
         margin: 50px auto;
+
+        img {
+            width: 50%;
+            float: left;
+            margin-right: 20px;
+        }
         
         &::after {
             content: '';
