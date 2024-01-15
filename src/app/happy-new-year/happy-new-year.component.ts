@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./happy-new-year.component.scss']
 })
 export class HappyNewYearComponent {
-
+  isCardFullscreen = true;
+  popUpCard():void {
+    this.isCardFullscreen = false;
+  }
 }
