@@ -23,6 +23,7 @@ import { BABaComponent } from './b-aba/b-aba.component';
 import { AgendaComponent } from './agenda/agenda.component';
 import { EvenementsClubComponent } from './evenements-club/evenements-club.component';
 import { SoireeOctComponent } from './soiree-oct/soiree-oct.component';
+import { HappyNewYearComponent } from './happy-new-year/happy-new-year.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { SoireeOctComponent } from './soiree-oct/soiree-oct.component';
     BABaComponent,
     AgendaComponent,
     EvenementsClubComponent,
-    SoireeOctComponent
+    SoireeOctComponent,
+    HappyNewYearComponent
   ],
   imports: [
     BrowserModule,
