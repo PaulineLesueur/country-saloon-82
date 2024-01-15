@@ -72,8 +72,16 @@
 }
 
 @media (max-width: 820px) {
-    .container-club .container-bureau img {
-        width: 50%;
+    .container-club {
+        .histoire img {
+            display: block;
+            float: none;
+            width: 100%;
+            margin: 0 0 20px 0;
+        }
+        .container-bureau img {
+            width: 50%;
+        }
     }
 }
 
