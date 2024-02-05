@@ -51,5 +51,14 @@ export class HomeComponent implements OnInit {
     { url: '../assets/img/home-slider/IMG-20230723-WA0008.jpg', title: 'danse country' },
     { url: '../assets/img/home-slider/IMG-20230723-WA0011.jpg', title: 'événement danse country' },
     { url: '../assets/img/home-slider/IMG-20230723-WA0013.jpg', title: 'club country saloon 82' },
+    { url: '../assets/img/home-slider/WhatsAppImage2023-10-29a14.09.12_72b29d5e.jpg ', title: ' '},
+    { url: '../assets/img/home-slider/WhatsAppImage2023-11-30a20.37.15_a39b77b8.jpg ', title: ' '},
+    { url: '../assets/img/home-slider/WhatsAppImage2023-12-09a15.14.07_3e52e493.jpg ', title: ' '},
+    { url: '../assets/img/home-slider/WhatsAppImage2023-12-09a15.45.22_045d559d.jpg ', title: ' '},
+    { url: '../assets/img/home-slider/WhatsAppImage2023-12-09a15.59.03_ac7c9d31.jpg ', title: ' '},
+    { url: '../assets/img/home-slider/WhatsAppImage2023-12-16a15.58.26_dd3b1eb7.jpg ', title: ' '},
+    { url: '../assets/img/home-slider/WhatsAppImage2023-12-16a15.59.51_ea41e6da.jpg ', title: ' '},
+    { url: '../assets/img/home-slider/WhatsAppImage2023-12-16a16.00.55_4ff66f10.jpg', title: ' '},
+    { url: '../assets/img/home-slider/WhatsAppImage2023-12-16a18.43.15_85d6d9f8.jpg ', title: ' '}
   ]
 }
