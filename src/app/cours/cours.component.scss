@@ -42,6 +42,9 @@
             justify-content: space-between;
 
             .salle-zawislack, .salle-fetes {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 width: 49%;
             }
 
