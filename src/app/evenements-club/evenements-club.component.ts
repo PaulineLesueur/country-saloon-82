@@ -12,10 +12,10 @@ export class EvenementsClubComponent implements OnInit {
   ngOnInit(): void {
     this.activitiesCard = [
       {
-        title: 'Soirée & après midi dansante - 28/29 octobre 2023',
-        description: 'Salle des fêtes St Etienne-de-Tulmont',
-        imageUrl: '/assets/img/events-img/soiree2829Oct23.png',
-        pageUrl: '/28-29-octobre-2023-st-etienne-de-tulmont'
+        title: 'Soirée & après midi dansante - 27/28 octobre 2024',
+        description: 'Informations à venir....',
+        imageUrl: '/assets/img/events-img/coming-soon.jpg',
+        pageUrl: '/evenements'
       }
     ];
   }
