@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit {
   }
 
   slides: SlideInterface[] = [
-    { url: '../assets/img/home-slider/IMG_7810.JPG', title: 'adhérents country saloon 82' },
+    { url: '../assets/img/home-slider/IMG-20240316.jpeg', title: 'adhérents country saloon 82' },
     { url: '../assets/img/home-slider/IMG-20230316-WA0030.jpg', title: 'téléthon 2023' },
     { url: '../assets/img/home-slider/image0000001(1).jpg', title: 'country saloon 82' },
     { url: '../assets/img/home-slider/IMG-20221203-WA0009.jpg', title: 'club country saloon 82' },
