@@ -37,6 +37,11 @@
     }
 }
 
+h4 {
+    width: 100%;
+    text-align: center;
+}
+
 .mat-accordion .mat-expansion-panel:first-of-type, .mat-accordion .mat-expansion-panel:not(.mat-expanded), .mat-accordion .mat-expansion-panel:not(.mat-expansion-panel-spacing) {
     border-radius: 10px;
     box-shadow: none;
