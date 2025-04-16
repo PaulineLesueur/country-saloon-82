@@ -12,10 +12,10 @@ export class EvenementsClubComponent implements OnInit {
   ngOnInit(): void {
     this.activitiesCard = [
       {
-        title: 'Soirée & après midi dansante - 27/28 octobre 2024',
-        description: 'Informations à venir....',
-        imageUrl: '/assets/img/events-img/coming-soon.jpg',
-        pageUrl: '/evenements'
+        title: 'Festival américain - 26, 27 et 28 septembre 2025',
+        description: 'Nous vous proposons, sur 3 jours, le 1er Festival Américain du Tarn et Garonne, les 26,27 et 28 septembre prochain.',
+        imageUrl: '/assets/img/events-img/festivalSept25.png',
+        pageUrl: '/26-27-28-septembre-2025-st-etienne-de-tulmont'
       }
     ];
   }

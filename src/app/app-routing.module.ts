@@ -10,7 +10,7 @@ import { ClubComponent } from './club/club.component';
 import { BABaComponent } from './b-aba/b-aba.component';
 import { AgendaComponent } from './agenda/agenda.component';
 import { EvenementsClubComponent } from './evenements-club/evenements-club.component';
-import { SoireeOctComponent } from './soiree-oct/soiree-oct.component';
+import { FestivalSeptComponent } from './festival-sept/festival-sept.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'club', component: ClubComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'evenements', component: EvenementsClubComponent },
-  { path: '28-29-octobre-2023-st-etienne-de-tulmont', component: SoireeOctComponent },
+  { path: '26-27-28-septembre-2025-st-etienne-de-tulmont', component: FestivalSeptComponent },
   { path: 'cours', component: CoursComponent },
   { path: 'mentions-legales', component: MentionsLegalesComponent },
   { path: 'coming-soon', component: IncomingFeatureComponent },
