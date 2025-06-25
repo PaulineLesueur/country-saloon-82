@@ -45,6 +45,25 @@
     }
 }
 
+p.hebergement {
+    margin-bottom: 10px;
+
+    a {
+        text-decoration: underline;
+        color: var(--textColor);
+    }
+}
+
+p.resa {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+
+    a {
+        width: 290px;
+    }
+}
+
 @media (max-width: 1180px) {
     .event-container .event-content img {
             width: 50%;
