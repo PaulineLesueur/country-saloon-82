@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'club', component: ClubComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'evenements', component: EvenementsClubComponent },
-  { path: '26-27-28-septembre-2025-st-etienne-de-tulmont', component: FestivalSeptComponent },
+  { path: '28-02-01-03-soiree-apres-midi-concert', component: FestivalSeptComponent },
   { path: 'cours', component: CoursComponent },
   { path: 'mentions-legales', component: MentionsLegalesComponent },
   { path: 'coming-soon', component: IncomingFeatureComponent },

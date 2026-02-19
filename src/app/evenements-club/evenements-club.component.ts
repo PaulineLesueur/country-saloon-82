@@ -12,10 +12,10 @@ export class EvenementsClubComponent implements OnInit {
   ngOnInit(): void {
     this.activitiesCard = [
       {
-        title: 'Festival américain - 26, 27 et 28 septembre 2025',
-        description: 'Nous vous proposons, sur 3 jours, le 1er Festival Américain du Tarn et Garonne, les 26,27 et 28 septembre prochain.',
-        imageUrl: '/assets/img/events-img/festivalSept25.png',
-        pageUrl: '/26-27-28-septembre-2025-st-etienne-de-tulmont'
+        title: 'Soirée & après midi Concert',
+        description: 'Deux jours sous le signe de la country avec des concerts, des bals et des animations pour tous les âges.',
+        imageUrl: '/assets/img/events-img/ConcertBalCountryV3flyer.png',
+        pageUrl: '/28-02-01-03-soiree-apres-midi-concert'
       }
     ];
   }
